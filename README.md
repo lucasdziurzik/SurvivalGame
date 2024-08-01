@@ -11,3 +11,5 @@ Some monsters receive a random speed buff and the "Speedy" prefix in their name.
 
 Once you reach a kill milestone, you get a sword upgrade, then a bow and then a leather armor.
 The game ends once wave 10 is beaten, or all players have died.
+
+Video example : https://www.youtube.com/watch?v=nxYbvF-6FGk
