@@ -1,0 +1,9 @@
+name: MyFirstPlugin
+version: '${project.version}'
+main: me.lucas.myfirstplugin.SurvivalGamePlugin
+api-version: '1.20'
+commands:
+  sgame:
+    description: Tells you how amazing you are !
+    usage: /<command>
+
