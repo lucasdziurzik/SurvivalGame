@@ -4,6 +4,6 @@ main: me.lucas.myfirstplugin.SurvivalGamePlugin
 api-version: '1.20'
 commands:
   sgame:
-    description: Tells you how amazing you are !
+    description: Starts the survival game
     usage: /<command>
 
