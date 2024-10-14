@@ -18,6 +18,7 @@ public final class SurvivalGamePlugin extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
         getServer().getPluginManager().registerEvents(new onTakeDamageListener(), this);
         getServer().getPluginManager().registerEvents(new onEntityDeathListener(), this);
+        getServer().getPluginManager().registerEvents(new onRightClickListener(), this);
         getCommand("sgame").setExecutor((new SGameCommand(this.getServer())));
     }
 }

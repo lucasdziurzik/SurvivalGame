@@ -116,7 +116,7 @@ public class survivalGame {
             wandLore.add("heal 2 hearts !");
             wandMeta.setLore(wandLore);
             wand.setItemMeta(wandMeta);
-            player.getInventory().setItem(1, wand);
+            player.getInventory().setItem(8, wand);
         }
         HealAndFeedAllPlayers();
         SendMessageToPlayers("The game has started !", "all");

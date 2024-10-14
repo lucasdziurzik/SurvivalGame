@@ -23,9 +23,5 @@ public class onTakeDamageListener implements Listener {
                 e.setDamage(7);
             else e.setDamage(100);
         }
-
-
-
-
    }
 }
