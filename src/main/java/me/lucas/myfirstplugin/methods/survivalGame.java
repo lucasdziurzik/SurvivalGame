@@ -29,6 +29,7 @@ public class survivalGame {
 
     private final String SWORD_NAME = ChatColor.GOLD + "MONSTER KILLER";
     private final String BOW_NAME = ChatColor.GOLD + "MONSTER SHOOTER";
+    private final String WAND_NAME = ChatColor.RED + "HEALING WAND";
 
 
     private int _currentWave;
@@ -106,6 +107,16 @@ public class survivalGame {
             swordMeta.setLore(swordLore);
             sword.setItemMeta(swordMeta);
             player.getInventory().setItem(0, sword);
+
+            ItemStack wand = new ItemStack(Material.STICK, 1);
+            ItemMeta wandMeta = sword.getItemMeta();
+            wandMeta.setDisplayName(WAND_NAME);
+            List<String> wandLore = new ArrayList<>();
+            wandLore.add("Right click on this wand to");
+            wandLore.add("heal 2 hearts !");
+            wandMeta.setLore(wandLore);
+            wand.setItemMeta(wandMeta);
+            player.getInventory().setItem(1, wand);
         }
         HealAndFeedAllPlayers();
         SendMessageToPlayers("The game has started !", "all");
